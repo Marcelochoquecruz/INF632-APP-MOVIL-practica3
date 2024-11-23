@@ -1,0 +1,26 @@
+name: practica4
+description: "A new Flutter project."
+publish_to: 'none' # Eliminar si deseas publicar el paquete en pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  uuid: ^4.5.1
+  intl: ^0.20.0
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
